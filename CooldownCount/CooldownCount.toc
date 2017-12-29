@@ -1,23 +1,27 @@
 ## Interface: 11200
 ## Title: CooldownCount |cff7fff7f -Ace2-|r
 ## Notes: Display Cooldown Count of Spell Icon and Item
-## Notes: Отображает время восстановления на иконках способностей и предметах
+## Notes-zhCN: 显示物品和技能的冷却倒计时
+## Notes-zhTW: 顯示物品與法術的冷卻計時
 ## Notes-koKR: 주문과 아이템의 재사용 시간을 표시합니다
+## Notes-deDE: Anzeige der Abklingzeit auf den Symbolen von Gegenständen oder Tasten in einer Leiste bis diese wieder benutzt werden können
+## Notes-ruRU: Отображает время восстановления на иконках способностей и предметах
 ## Author: hshh
-## Version: 1.1.$Revision: 16491 $
-## X-Date: $Date: 2006-11-09 12:06:06 -0500 (Thu, 09 Nov 2006) $
+## Version: 2.1
+## OptionalDeps: Ace2
+## SavedVariables: CooldownCountDB
+## RequiredDeps: !Libs
 ## X-eMail: hshh@hshh.org
 ## X-Website: http://www.hshh.org/
 ## X-Category: Interface Enhancements
 ## X-Commands: /cooldowncount, /cc
-## OptionalDeps: Ace2
-## SavedVariables: CooldownCountDB
-## RequiredDeps: !Libs
 
-Locale\Locale.en.lua
-Locale\Locale.ru.lua
-Locale\Locale.zh.lua
-Locale\Locale.kr.lua
-Locale\Locale.fr.lua
+Locale\Locale.enUS.lua
+Locale\Locale.zhCN.lua
+Locale\Locale.koKR.lua
+Locale\Locale.frFR.lua
+Locale\Locale.zhTW.lua
+Locale\Locale.deDE.lua
+Locale\Locale.ruRU.lua
 
 CooldownCount.lua
